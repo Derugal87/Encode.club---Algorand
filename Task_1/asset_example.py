@@ -15,11 +15,7 @@ mnemonic3 = "unusual vintage embody kite lamp chunk lawsuit aunt gaze tube strat
 
 # For ease of reference, add account public and private keys to
 # an accounts dict.
-accounts = {
-    "KKXN73RXBREAEKCONN3BWODCTLKOHLK4L6X23XRYXGDUX7PO2B2FYP73TI": "gEpgsIGt/7SOuwXfVTspLdBHnFNQGj8BIbQ1tMVH04pSrt/uNwxIAihOa3YbOGKa1OOtXF+vrd44uYdL/e7QdA==",
-    "GSJMTULNKBEZLNSFF3UGCV7XL4LUHEJT5BMGYNPR6C5L2NGLFHOLJEWY7E": "O+LZDhwtwHJIrT/irnzkDwsRs6xjxM3sIwENbZuvJyo0ksnRbVBJlbZFLuhhV/dfF0ORM+hYbDXx8Lq9NMsp3A==",
-    "AWUSHGCDHO3MC6VA25FYCKF2DKOH3JTYH4ENLTO4LG4WSWP5WR5CRM3EDY": "cg/9kLJnvqLETw8Fg7qtT2vMNQBJpXKYJnyCugbKTL0FqSOYQzu2wXqg10uBKLoanH2meD8I1c3cWblpWf20eg=="
-    }
+accounts = {}
 counter = 1
 for m in [mnemonic1, mnemonic2, mnemonic3]:
     accounts[counter] = {}
